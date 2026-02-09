@@ -55,7 +55,7 @@ export default function Home() {
           </ul>
         </section>
 
-        <section className="space-y-4 pb-8">
+        <section className="space-y-4">
           <h2 className="text-xl font-semibold tracking-tight">Beliefs</h2>
           <ul className="list-disc space-y-2 pl-6 text-lg leading-8 text-zinc-800">
             <li>
@@ -65,6 +65,34 @@ export default function Home() {
             <li>Small teams, real problems.</li>
             <li>The boring problems are the important ones.</li>
           </ul>
+        </section>
+
+        <section className="space-y-4 pb-8">
+          <h2 className="text-xl font-semibold tracking-tight">Links</h2>
+          <div className="flex flex-wrap gap-x-6 gap-y-2 text-lg text-zinc-800">
+            <a
+              className="underline underline-offset-4"
+              href="https://linkedin.com/in/nathanielweiner"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn
+            </a>
+            <a className="underline underline-offset-4" href="https://x.com/nathanielweiner" target="_blank" rel="noreferrer">
+              X
+            </a>
+            <a
+              className="underline underline-offset-4"
+              href="https://github.com/NathanielWeiner"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+            <a className="underline underline-offset-4" href="mailto:nate@formstonelabs.com">
+              Email
+            </a>
+          </div>
         </section>
       </div>
     </main>
