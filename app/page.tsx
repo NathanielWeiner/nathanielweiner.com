@@ -10,14 +10,22 @@ export default function Home() {
           <h2 className="text-xl font-semibold tracking-tight text-zinc-900">Bio</h2>
           <p>I build healthcare software.</p>
           <p>
-            I&apos;m CTO at OneLine Health, where we&apos;re replacing the paperwork layer of medicine
-            — patient intake, ambient listening, clinical documentation, EHR busywork. The stuff
-            that eats half a doctor&apos;s day before they treat a single patient.
+            At Vizient, I help lead R&amp;D, turning the company’s healthcare expertise and trusted
+            relationships into new tools. I work with a small team to take ideas from early
+            exploration to products healthcare organizations can use.
           </p>
           <p>
             Before that, I co-founded Avhana Health with my brother Noah. We built clinical
             decision support tools that plugged into EHRs and scaled to tens of millions of
-            patients across 150+ medical groups. Avhana was acquired by Amalgam Rx in 2021.
+            patients across 150+ medical groups.
+          </p>
+          <p>
+            After Amalgam Rx acquired Avhana in 2021, I continued building healthcare software
+            there, working with payers, providers, and life sciences companies.
+          </p>
+          <p>
+            I also served as CTO at OneLine Health, building tools for clinical documentation and
+            patient intake.
           </p>
           <p>
             Earlier: building hospitals at Johns Hopkins, building missile launchers at Lockheed
@@ -52,18 +60,6 @@ export default function Home() {
             <li>
               <strong>Lunchbox League</strong> — Food allergy management for parents.
             </li>
-          </ul>
-        </section>
-
-        <section className="space-y-4">
-          <h2 className="text-xl font-semibold tracking-tight">Beliefs</h2>
-          <ul className="list-disc space-y-2 pl-6 text-lg leading-8 text-zinc-800">
-            <li>
-              Healthcare software should disappear into the workflow, not create a new one.
-            </li>
-            <li>The best way to learn AI is to ship things with it.</li>
-            <li>Small teams, real problems.</li>
-            <li>The boring problems are the important ones.</li>
           </ul>
         </section>
 
